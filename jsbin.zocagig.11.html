@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2023 by k-mencser-b (http://jsbin.com/zocagig/11/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html lang=hu>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Meghívó</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Libre+Baskerville&family=Mulish:wght@400;500&display=swap" rel="stylesheet"> 
+<style id="jsbin-css">
+body{
+  box-sizing:border-box;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 100vw;
+  grid-template-rows: auto;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  justify-content: space-around;
+  align-content: center; 
+  width: 100%;
+  height: 100%;
+  background-color:rgb(73, 57, 43);
+  margin-top: 10px;
+  padding: 10px
+} 
+
+.item{
+  margin: auto;
+}
+.withe-page{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 80%;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: auto;
+  border-radius: 20px;
+}
+
+.page-1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  grid-row-gap: 30vh;
+  width: 90%;
+  height: 90vh;
+  background: url(https://images.pexels.com/photos/1227511/pexels-photo-1227511.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) no-repeat center;
+  font-family: 'Great Vibes', cursive;
+  font-size: 3rem;
+  color: rgb(73, 57, 43);
+  box-shadow: hsla(0, 0%, 0%, .8) 5px 5px 5px;
+}
+
+
+
+
+.nagybetu{
+  font-size: 10vh;
+  padding-bottom: 2rem;
+  padding-top: 3rem;
+  text-align: center;
+}
+p{
+  font-size: 3vh;
+ 
+}
+
+.page-2{
+  display: flex;
+  width: 90%;
+  height: 90vh;
+  background: url(https://images.pexels.com/photos/1227511/pexels-photo-1227511.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) no-repeat center;
+   box-shadow: hsla(0, 0%, 0%, .8) 5px 5px 5px;
+  color: rgb(73, 57, 43);
+    text-align: center;
+}
+
+
+.invites-text{
+  padding-top: 3rem;
+}
+  .quote{
+  padding-top: 8rem;
+}
+.teacher-name{
+  padding-top: 2rem;
+}
+.name-list-block{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  column-gap: 20px;
+  padding-top: 3rem;
+}
+
+
+
+
+
+
+
+
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 10vh;
+   background: url(https://images.pexels.com/photos/1227511/pexels-photo-1227511.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) center;
+  border-top: 1px solid black;
+  color: rgb(37, 25, 8);
+}
+
+
+ .sallang{
+    display: none;
+  }
+
+
+@media (min-width: 768px){
+  .container {
+  display: grid;
+  grid-template-columns: 40% auto;
+  grid-template-rows: 90vh 90vh 10vh;
+    justify-content: space-around;
+    align-content: center; 
+  }
+  .footer{
+    width: 100%;
+  }
+  .sallang{
+    display: flex;;
+  }
+}
+
+
+@media (min-width: 992px) {
+  
+
+ 
+  .container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 90vh 10vh;
+    justify-content: space-around;
+    align-content: center; 
+  }
+ .page-1{
+  width: 30vw;
+  height: 90vh;
+}
+ .page-2{
+  width: 30vw;
+  height: 90vh;
+}
+ .page-3{
+  width: 30vw;
+  height: 90vh;
+}
+  .footer{
+    width: 100%
+  }
+  .sallang{
+    display: none;
+  }
+}
+</style>
+</head>
+  
+<body>
+  <div class="container">
+    
+    <div class="item page-1">
+      <div class="withe-page">
+      <div class="h1-helye>">
+        <p class="nagybetu">Ballagási</p>
+        <p class="nagybetu">Meghívó</p>
+        <p class="nagybetu">2023</p>
+      </div>
+      </div>
+        
+    </div>
+    
+    <div class="item page-2">
+      
+      <div class="withe-page">
+        
+        <div class="invites-text">
+          <p>Szeretettel meghívjuk</p>
+          <p>Önt és kedves családját</p>
+          <p>A Kalmár Zoltán és Bocskai István
+             Egyesített Általános Iskola</p>
+          <p>8. p. osztályának</p>
+          <p>2023. Április 30-án
+         17.00 órakor tartandó
+         Ballagására.</p>
+      <p>Cím:4060 Balmazújváros, Móricz Zsigmond utca        1-3.</p>
+      </div>
+    
+      <div class="quote">
+        <p>… Élni való minden      élet,</p>
+        <p>Csak magadnak hû maradj</p>
+        <p>Veszteség nem érhet téged,</p>
+        <p>Hogyha az lész, ami vagy.</p>
+      </div>
+      </div>
+    </div>
+    
+    
+    
+      <div class="item page-1 sallang">
+      </div>
+  
+  
+   <div class="item page-2">
+      
+      <div class="withe-page">
+        
+      <div class="teacher-name">
+         <p>Osztályfőnök: </p>
+         <p>Nagy Ilona</p>
+        <br>
+        </br>
+        <p>Tanulók:</p>
+      </div>
+      <div class="name-list-block">
+          <div class="name-list1">
+            <p>Kis Alexandra</p>
+            <p>Kis Alexandra</p>
+            <p>Kis Alexandra</p>
+            <p>Kis Alexandra</p>
+            <p>Kis Alexandra</p>
+            <p>Kis Alexandra</p>
+            <p>Kis Alexandra</p>
+            <p>Kis Alexandra</p>
+            <p>Kis Alexandra</p>
+            <p>Kis Alexandra</p>
+            <p>Kis Alexandra</p>
+            <p>Kis Alexandra</p>
+          </div>
+          <div class="name-list1">
+            <p>Kis Alexandra</p>
+            <p>Kis Alexandra</p>
+            <p>Kis Alexandra</p>
+            <p>Kis Alexandra</p>
+            <p>Kis Alexandra</p>
+            <p>Kis Alexandra</p>
+            <p>Kis Alexandra</p>
+            <p>Kis Alexandra</p>
+            <p>Kis Alexandra</p>
+            <p>Kis Alexandra</p>
+            <p>Kis Alexandra</p>
+            <p>Kis Alexandra</p>
+          </div>
+     </div>
+    </div>
+    
+    
+    
+    
+    
+    
+       
+  <div class="item footer">
+    <p>© 2023 by k-mencser-b</p>
+  </div>
+<script id="jsbin-javascript">
+ 
+</script>
+</body>
+</html>
